@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.text import slugify
+from django.urls import reverse
 
 # GROUPS MODELS.PY FILE
 # Create your models here.
