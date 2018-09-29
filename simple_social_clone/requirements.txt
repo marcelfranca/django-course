@@ -1,0 +1,14 @@
+certifi==2018.8.24
+cffi==1.11.5
+Django==2.1
+django-bootstrap3==11.0.0
+django-braces==1.13.0
+django-debug-toolbar==1.10.1
+Faker==0.9.1
+misaka==2.1.0
+pycparser==2.18
+python-dateutil==2.7.3
+pytz==2018.5
+six==1.11.0
+sqlparse==0.2.4
+text-unidecode==1.2
