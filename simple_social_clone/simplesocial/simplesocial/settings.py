@@ -26,13 +26,17 @@ SECRET_KEY = '3ousf(@()!ekisp8%wb&^a(dn=miy9=(9f(^)s^%4a*5+iv#n3'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-  "django-env.kmcztiasis.sa-east-1.elasticbeanstalk.com"  
+    "django-env.kmcztiasis.sa-east-1.elasticbeanstalk.com",
+    "127.0.0.1:8000",
+    "127.0.0.1"
 ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'jet.dashboard',
+    'jet',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
